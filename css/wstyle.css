@@ -1,0 +1,8 @@
+/* CSS Document */
+.banner6 .char1{
+        background-attachment: fixed;
+           background:linear-gradient(rgb(0,0,0,0.85),rgb(0,0,0,0.85)),url('../images/download1.jpg');
+           background-size: cover;
+           height: 90vh;
+			width: 100%;
+}

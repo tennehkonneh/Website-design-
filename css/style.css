@@ -1,0 +1,101 @@
+/* CSS Document */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-item >a:hover{
+	border-bottom: 2px solid white;
+}
+.banner .char{
+        background-attachment: fixed;
+           background:linear-gradient(rgb(0,0,0,0.85),rgb(0,0,0,0.85)),url('../images/download3.jpg');
+           background-size: cover;
+           height: 90vh;
+			width: 100%;
+}
+
+
+/*Banner image end here*/
+
+.container >h2{
+	font-size: 3rem;
+	text-align: center;
+	
+}
+
+
+.best{
+	width: 100%;
+	height: auto;
+	background-color: darkgoldenrod;
+	padding: 0px 7px;
+}
+
+.best >p{
+	font-family: time Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-style: italic;
+	font-size: 1.5rem;
+}
+  
+
+
+
+.inspired{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+}
+
+.inspired >div{
+	width: 30rem;
+	height: 30rem;
+	
+}
+.inspired >div >h2{
+text-align: center;
+color: goldenrod;
+}
+
+
+
+.banner3 .below{
+        background-attachment: fixed;
+           background:linear-gradient(rgb(0,0,0,0.85),rgb(0,0,0,0.85)),url('../images/89.jpg');
+           background-size: cover;
+           height: 50vh;
+			width: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+}
+
+
+.foot{
+	background-color: black;
+	color: white;
+	padding: 3px 4px;
+}
+.container .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+}
+.container .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+    background-image: -webkit-linear-gradient(270deg,rgba(139,130,4,1.00) 0%,rgba(139,130,4,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(139,130,4,1.00) 0%,rgba(139,130,4,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(139,130,4,1.00) 0%,rgba(139,130,4,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(139,130,4,1.00) 0%,rgba(139,130,4,1.00) 100%);
+}
+.container .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+    color: rgba(244,239,239,1.00);
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+
+
+
+/*//////////////////////////////////////////////Contact Form Code///////////////////////////////////////////////////////////////////////*/
+form{
+	text-align: center;
+	background-color: gainsboro;
+}
